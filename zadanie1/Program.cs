@@ -109,43 +109,43 @@ else
         switch (totalDays)
         {
             case int n when n >= 1 && n <= 19:
-                Console.WriteLine("Ваш знак зодиака: Козерог");
+                Console.WriteLine("Ваш знак зодиака: Козерог"); // te te te 
                 break;
             case int n when n >= 20 && n <= 49:
-                Console.WriteLine("Ваш знак зодиака: Водолей");
+                Console.WriteLine("Ваш знак зодиака: Водолей"); // te te teto 
                 break;
             case int n when n >= 50 && n <= 79:
-                Console.WriteLine("Ваш знак зодиака: Рыбы");
+                Console.WriteLine("Ваш знак зодиака: Рыбы"); // te te te
                 break;
             case int n when n >= 80 && n <= 110:
-                Console.WriteLine("Ваш знак зодиака: Овен");
+                Console.WriteLine("Ваш знак зодиака: Овен"); // te te teto 
                 break;
             case int n when n >= 111 && n <= 140:
-                Console.WriteLine("Ваш знак зодиака: Телец");
+                Console.WriteLine("Ваш знак зодиака: Телец"); // te to kasane teto
                 break;
             case int n when n >= 141 && n <= 170:
-                Console.WriteLine("Ваш знак зодиака: Близнецы");
+                Console.WriteLine("Ваш знак зодиака: Близнецы"); // te to kasane teto
                 break;
             case int n when n >= 171 && n <= 203:
-                Console.WriteLine("Ваш знак зодиака: Рак");
+                Console.WriteLine("Ваш знак зодиака: Рак"); // mi mi mi
                 break;
             case int n when n >= 204 && n <= 234:
-                Console.WriteLine("Ваш знак зодиака: Лев");
+                Console.WriteLine("Ваш знак зодиака: Лев"); // mi mi miku
                 break;
             case int n when n >= 235 && n <= 265:
-                Console.WriteLine("Ваш знак зодиака: Дева");
+                Console.WriteLine("Ваш знак зодиака: Дева"); // mi mi mi
                 break;
             case int n when n >= 266 && n <= 295:
-                Console.WriteLine("Ваш знак зодиака: Весы");
+                Console.WriteLine("Ваш знак зодиака: Весы"); // mi mi miku
                 break;
             case int n when n >= 296 && n <= 325:
-                Console.WriteLine("Ваш знак зодиака: Скорпион");
+                Console.WriteLine("Ваш знак зодиака: Скорпион"); // miku hatsune miku
                 break;
             case int n when n >= 326 && n <= 355:
-                Console.WriteLine("Ваш знак зодиака: Стрелец");
+                Console.WriteLine("Ваш знак зодиака: Стрелец"); // miku hatsune miku
                 break;
             case int n when n >= 356 && n <= 365:
-                Console.WriteLine("Ваш знак зодиака: Козерог");
+                Console.WriteLine("Ваш знак зодиака: Козерог"); // у меня нет проблем с головой
                 break;
             default:
                 Console.WriteLine("Ошибка 12345567890"); //много проверок не бывает. я вообще впринципе не знаю как ее получить, но почему бы и нет ¯\_(ツ)_/¯
